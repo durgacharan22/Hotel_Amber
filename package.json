@@ -1,0 +1,30 @@
+{
+  "name": "northwestdorms",
+  "version": "1.0.0",
+  "description": "North West Dorms WebPage",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Naveen Kumar Chandaluri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chvnaveenkumar/northwestdorms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chvnaveenkumar/northwestdorms/issues"
+  },
+  "homepage": "https://github.com/chvnaveenkumar/northwestdorms#readme",
+  "devDependencies": {},
+  "keywords": []
+}
