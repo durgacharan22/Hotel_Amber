@@ -12,8 +12,22 @@
 </head>
 
 <body>
-<% include Admin_header.ejs %>  
+        <img src="AmberHotel.png" width="900em" alt="main logo">
+        <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-log-out"></span> Log in
+          </a>
+<% include Admin_header.ejs %> 
+<table align="center">
+<td>
+<form action="/action_page.php">
+    Name:<input type="text" name="Name" value="Enter the name">
+<br>
+    Email Id:<input type="text" name="Email" value="Enter the email Id">
+<br>
+    <input type="submit" value="Submit">
+  </form> 
+</td>
+</table>
 
-add remove user
 </body>
  
