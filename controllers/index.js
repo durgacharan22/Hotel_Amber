@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser());
 
 app.get('/',(req,res) =>{
-    console.log("Get Data");
+    
             res.render('./home.ejs');
 });
 app.post('/',(req,res) =>{
@@ -23,29 +23,50 @@ console.log(JSON.stringify(req.body));
 console.log("Post Data "+ username );
 });
 
-app.get('/Login',(req,res) =>{
-    console.log("Get Data");
-            res.render('./Login.ejs');
+app.get('/login',(req,res) =>{
+    
+            res.render('./login.ejs');
 });
+
 app.get('/SignUp',(req,res) =>{
-    console.log("Get Data");
+    
             res.render('./SignUp.ejs');
 });
+
+
+//Charan
+app.get('/About',(req,res) =>{
+    // 
+            res.render('./About.ejs');
+});
+app.get('/menu',(req,res) =>{
+    // 
+            res.render('./menu.ejs');
+});app.get('/profile',(req,res) =>{
+    // 
+            res.render('./profile.ejs');
+});app.get('/cart',(req,res) =>{
+    // 
+            res.render('./cart.ejs');
+});app.get('/header',(req,res) =>{
+    // 
+            res.render('./header.ejs');
+});
 // app.get('/studentrooms',(req,res) =>{
-//     console.log("Get Data");
+//     
 //             res.render('./studentrooms.ejs');
 // });
 
 // app.get('/studenthistory',(req,res) =>{
-//     console.log("Get Data");
+//     
 //             res.render('./studenthistory.ejs');
 // });
 // app.get('/studentprofile',(req,res) =>{
-//     console.log("Get Data");
+//     
 //             res.render('./studentprofile.ejs');
 // });
 // app.get('/logout',(req,res) =>{
-//     console.log("Get Data");
+//     
 //             res.render('./logout.ejs');
 // });
 // app.get('/aboutus',(req,res) =>{
